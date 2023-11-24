@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+.booking{
+    width: 100%;
+    padding-top: 90px;
+    
+    
+}
+
+.container-b{
+    
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 110px;
+     width: 100%;
+    
+    .image{
+    background: url(../../assets/image/homepic.jpg)no-repeat;
+    
+      width: 60%; 
+      height: 75vh; 
+    }
+    .detail{
+        width: 50%;
+        background-color: gainsboro;
+        padding-left: 70px;
+        padding-top: 165px;
+        height: 75vh; 
+        h1{
+            width: 70%;
+            font-size: 60px;
+            margin-bottom: 0;
+        }
+        p{
+            
+            line-height: 1.5;
+        }
+        
+        
+    }
+}

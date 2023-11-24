@@ -1,0 +1,227 @@
+*{
+    box-sizing: border-box;
+}
+
+.booking{
+    padding-top: 90px;
+    
+    
+.container-l{
+ background-color: #fff;
+ padding: 50px 125px;
+ padding-bottom: 150px;
+
+
+ 
+ 
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+    .title{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 40px;
+        .part1{
+            width: 70%;
+            h1{
+                font-size: 45px;
+                font-weight: 600;
+                margin: 0%;
+            }
+            p{
+                color: gray;
+            }
+            
+        }
+        .part2{
+            width: 30%;
+            
+            .book{
+                position: relative;
+                top: 40px;
+                left: 160px;
+                height: 5vh;
+                width: 50%;
+                margin-top: 10px;
+                border: none;
+                background-color:#fff;
+                border-radius: 40px;
+                font-size: 16px;
+                color:#2B5399;
+                cursor: pointer;
+            }
+            .book:hover{
+                background-color: #2B5399;
+                color: #fff;
+            }
+        }
+    }
+    .card-second-2{
+        .m-card{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+            padding-bottom: 25px;
+            .item1{
+                width: 32%;
+                .pic-1{
+                    background: url(../../assets/image/dome.jpg);
+                    width: 350px;
+                    height: 250px;
+                    border-radius: 25px;
+                }
+                .h-detail{
+                    padding: 0px 20px;
+                    h3{
+                        color: rgb(93, 91, 91);
+                        font-weight: 500;
+                        margin-bottom: 10px;
+                    }
+                    p{
+                        font-size: 14px;
+                        color: gray;
+                        margin: 0;
+                    }
+                }
+                .fare{
+                    display: flex;
+                    align-items: center;
+                    padding: 0px 20px;
+                    h2{
+                        font-weight: 400;
+                        color: rgb(93, 91, 91);
+                    }
+                    p{
+                        color: gray;
+                        font-size: 14px;
+                        padding-left: 10px;
+                    }
+                }
+            }
+            .item2{
+                width: 32%;
+                .pic-1{
+                   background: url(../../assets/image/cottage.jpg);
+                   width: 350px; 
+                   height: 250px;
+                   border-radius: 25px;
+                }
+                .h-detail{
+                    padding: 0px 20px;
+                    h3{
+                        color: rgb(93, 91, 91);
+                        font-weight: 500;
+                        margin-bottom: 10px;
+                    }
+                    p{
+                        font-size: 14px;
+                        color: gray;
+                        margin: 0;
+                    }
+                }
+                .fare{
+                    display: flex;
+                    align-items: center;
+                    padding: 0px 20px;
+                    h2{
+                        font-weight: 400;
+                        color: rgb(93, 91, 91);
+                    }
+                    p{
+                        color: gray;
+                        font-size: 14px;
+                        padding-left: 10px;
+                    }
+                }
+            }
+            .item3{
+                width: 32%;
+                .pic-1{
+                   background: url(../../assets/image/morden.jpg);
+                   width: 350px; 
+                   height: 250px;
+                   border-radius: 25px; 
+                }
+                .h-detail{
+                    padding: 0px 20px;
+                    h3{
+                        color: rgb(93, 91, 91);
+                        font-weight: 500;
+                        margin-bottom: 10px;
+                    }
+                    p{
+                        font-size: 14px;
+                        color: gray;
+                        margin: 0;
+                    }
+                }
+                .fare{
+                    display: flex;
+                    align-items: center;
+                    padding: 0px 20px;
+                    h2{
+                        font-weight: 400;
+                        color: rgb(93, 91, 91);
+                    }
+                    p{
+                        color: gray;
+                        font-size: 14px;
+                        padding-left: 10px;
+                    }
+                }
+            
+            }
+        }
+        
+    }    
+    
+}
+}
+}
+@media screen and (max-width:992px){
+
+    .container{
+        max-width: 960px;
+    }
+
+
+  }
+    
+  
+
+@media screen and (min-width:1200px){
+    .container{
+        max-width: 1140px;
+    }
+    
+}
+ 
+
+@media screen and (max-width:1300px){
+    .container{
+        max-width: 1140px;
+    }
+    .item1,
+    .item2,
+    .item3{
+        .pic-1{
+            width: 300px !important;
+        }
+    }
+       
+}
+
+@media screen and (min-width:1200px){
+    .container{
+        max-width: 1140px;
+    }
+           
+}
+
