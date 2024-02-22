@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+
+.booking{
+    width: 100%;
+    padding-top: 80px !important;
+    
+    
+}
+
+.container-b{
+    
+    display: flex;
+    flex-direction: row;
+    //position: absolute;
+    bottom: 100px;
+     width: 100%;
+    
+    .image{
+        background: url(../../assets/image/homepic.jpg)no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 60%; 
+        height: 90vh; 
+    }
+    .detail{
+        width: 50%;
+        background-color: gainsboro;
+        padding-left: 90px;
+        padding-top: 100px;
+        height: 90vh; 
+        h1{
+            width: 70%;
+            font-size: 60px;
+            margin-bottom: 0;
+            padding-top: 20px;
+        }
+        .book-1{
+            position: relative;
+            
+            height: 5vh;
+            width: 25%;
+            margin-top: 10px;
+            border: none;
+            background-color:#2B5399;
+            border-radius: 10px;
+            font-size: 16px;
+            color:#fff;
+            cursor: pointer;
+           a{
+            text-decoration: none;
+            color: #fff;
+            font-weight: 600;
+           }
+
+        }
+        p{
+            
+            line-height: 1.5;
+        }
+        
+        
+    }
+}

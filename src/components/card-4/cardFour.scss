@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+}
+
+
+  
+    
+.container-out{
+ 
+ padding: 90px 125px;
+ 
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+    .title{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 40px;
+        .part1{
+            width: 70%;
+            h1{
+                font-size: 45px;
+                font-weight: 600;
+                margin: 0%;
+            }
+            p{
+                color: gray;
+            }
+            
+        }
+        .part2{
+            width: 30%;
+            
+            .book{
+                position: relative;
+                top: 40px;
+                left: 160px;
+                height: 5vh;
+                width: 50%;
+                margin-top: 10px;
+                border: none;
+                background-color:#2B5399;
+                border-radius: 40px;
+                font-size: 16px;
+                color:#fff;
+                cursor: pointer;
+            }
+            // .book:hover{
+            //     background-color: #fff;
+            //     color: #2B5399;
+            // }
+        }
+    }
+    .card-second{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .f-card{
+           background-color: #fff;
+           padding: 25px;
+           padding-left: 30px;
+           width: 48%;
+           border-radius: 15px;
+            .cr-one{
+                height: 35vh;
+              h2{
+                font-size: 25px;
+                margin: 0%;
+              } 
+              p{
+                line-height: 1.5;
+                width: 85%;
+              }
+                
+                
+            }
+            .details-1{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                .img{
+                    width: 8%;
+                    height: 5vh;
+                    background-color: dimgrey;
+                    border-radius: 50px;
+
+                }
+                .name-tag{
+                    width: 88%;
+                    h2{
+                        font-size: 20px;
+                        margin: 0;
+                    }
+                    p{
+                        color: gray;
+                        margin: 5px;
+                    }
+                }
+                
+            }
+            
+        }
+        .s-card{
+            background-color: #fff;
+            padding: 25px;
+            width: 48%;
+            border-radius: 15px;
+            .cr-one{
+                height: 35vh;
+                h2{
+                  font-size: 25px;
+                  margin: 0%;
+                } 
+                p{
+                  line-height: 1.5;
+                  width: 85%;
+                }
+                  
+                  
+              }
+              .details-1{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                
+                
+
+                  .img{
+                      width: 8%;
+                      height: 5vh;
+                      background-color: dimgrey;
+                      border-radius: 50px;
+                  }
+                  .name-tag{
+                    width: 88%;
+                      h2{
+                          font-size: 20px;
+                          margin: 0;
+                      }
+                      p{
+                          color: gray;
+                          margin: 5px;
+                      }
+                  }
+                  
+              }
+            
+        }
+    }
+}
+}
+
+@media screen and (max-width:992px){
+
+    .container{
+        max-width: 960px;
+    }
+
+
+  }
+    
+  
+
+  @media screen and (min-width:1200px){
+    .container{
+        max-width: 1140px;
+    }
+   
+    }

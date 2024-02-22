@@ -1,0 +1,395 @@
+*{
+    box-sizing: border-box;
+}
+
+.booking{
+    padding-top: 80px;
+    
+    
+.container-l{
+ background-color: #fff;
+ padding: 50px 125px;
+ //padding-bottom: 120px;
+
+
+ 
+ 
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+    .title{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 40px;
+        .part1{
+            width: 70%;
+            h1{
+                font-size: 45px;
+                font-weight: 600;
+                margin: 0%;
+            }
+            p{
+                color: gray;
+            }
+            
+        }
+        .part2{
+            width: 30%;
+            
+            .book{
+                position: relative;
+                top: 40px;
+                left: 160px;
+                height: 5vh;
+                width: 50%;
+                margin-top: 10px;
+                border: none;
+                background-color:#2B5399;
+                border-radius: 40px;
+                font-size: 16px;
+                color:#fff;
+                cursor: pointer;
+            }
+            // .book:hover{
+            //     background-color: #2B5399;
+            //     color: #fff;
+            // }
+        }
+    }
+    .card-second-2{
+        .m-card{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+            padding-bottom: 25px;
+            .item1{
+                width: 32%;
+                border-radius: 24px;
+                background: rgb(254,219,142);
+                background: linear-gradient(180deg, rgba(254,219,142,1) 31%, rgba(255,255,255,1) 94%);
+                .pic-1{
+                    background: url(../../assets/image/dome.jpg);
+                    background-position: center;
+                    background-size: cover;
+                    width: 355px;
+                    height: 250px;
+                    border-radius: 25px;
+                }
+                .h-detail{
+                    padding: 0px 20px;
+                    h3{
+                        color: rgb(93, 91, 91);
+                        font-weight: 500;
+                        margin-bottom: 10px;
+                    }
+                    p{
+                        font-size: 14px;
+                        color: gray;
+                        margin: 0;
+                    }
+                }
+                .fare{
+                    display: flex;
+                    align-items: center;
+                    padding: 5px 20px;
+                    width: 100%;
+                    h2{
+                        font-weight: 400;
+                        color: rgb(93, 91, 91);
+                    }
+                    p{
+                        color: gray;
+                        font-size: 14px;
+                        padding-left: 10px;
+                    }
+                }
+            }
+            .item2{
+                width: 32%;
+                border-radius: 24px;
+                background: rgb(254,219,142);
+                background: linear-gradient(180deg, rgba(254,219,142,1) 31%, rgba(255,255,255,1) 94%);
+                .pic-1{
+                   background: url(../../assets/image/cottage.jpg);
+                   background-position: center;
+                   background-size: cover;
+                   width: 355px; 
+                   height: 250px;
+                   border-radius: 25px;
+                }
+                .h-detail{
+                    padding: 0px 20px;
+                    h3{
+                        color: rgb(93, 91, 91);
+                        font-weight: 500;
+                        margin-bottom: 10px;
+                    }
+                    p{
+                        font-size: 14px;
+                        color: gray;
+                        margin: 0;
+                    }
+                }
+                .fare{
+                    display: flex;
+                    align-items: center;
+                    padding: 5px 20px;
+                    width: 100%;
+                    h2{
+                        font-weight: 400;
+                        color: rgb(93, 91, 91);
+                    }
+                    p{
+                        color: gray;
+                        font-size: 14px;
+                        padding-left: 10px;
+                    }
+                }
+            }
+            .item3{
+                width: 32%;
+                border-radius: 24px;
+                background: rgb(254,219,142);
+                background: linear-gradient(180deg, rgba(254,219,142,1) 31%, rgba(255,255,255,1) 94%);
+                .pic-1{
+                   background: url(../../assets/image/morden.jpg);
+                   background-position: center;
+                   background-size: cover;
+                   width: 355px; 
+                   height: 250px;
+                   border-radius: 25px; 
+                }
+                .h-detail{
+                    padding: 0px 20px;
+                    h3{
+                        color: rgb(93, 91, 91);
+                        font-weight: 500;
+                        margin-bottom: 10px;
+                    }
+                    p{
+                        font-size: 14px;
+                        color: gray;
+                        margin: 0;
+                    }
+                }
+                .fare{
+                    display: flex;
+                    align-items: center;
+                    padding: 5px 20px;
+                    width: 100%;
+                    h2{
+                        font-weight: 400;
+                        color: rgb(93, 91, 91);
+                    }
+                    p{
+                        color: gray;
+                        font-size: 14px;
+                        padding-left: 10px;
+                    }
+                }
+            
+            }
+            .item4{
+                width: 32%;
+                // border-radius: 24px;
+                // background: rgb(254,219,142);
+                // background: linear-gradient(180deg, rgba(254,219,142,1) 31%, rgba(255,255,255,1) 94%);
+                .pic-1{
+                    background: url(../../assets/image/dome.jpg);
+                    background-position: center;
+                    background-size: cover;
+                    width: 355px;
+                    height: 250px;
+                    border-radius: 25px;
+                }
+                .h-detail{
+                    padding: 0px 20px;
+                    h3{
+                        color: rgb(93, 91, 91);
+                        font-weight: 500;
+                        margin-bottom: 10px;
+                    }
+                    p{
+                        font-size: 14px;
+                        color: gray;
+                        margin: 0;
+                    }
+                }
+                .fare{
+                    display: flex;
+                    align-items: center;
+                    padding: 5px 20px;
+                    width: 100%;
+                    h2{
+                        font-weight: 400;
+                        color: rgb(93, 91, 91);
+                    }
+                    p{
+                        color: gray;
+                        font-size: 14px;
+                        padding-left: 10px;
+                    }
+                }
+            }
+            .item5{
+                width: 32%;
+                // background: linear-gradient(180deg, rgba(254,219,142,1) 31%, rgba(255,255,255,1) 94%);
+                .pic-1{
+                    background: url(../../assets/image/dome.jpg);
+                    background-position: center;
+                    background-size: cover;
+                    width: 355px;
+                    height: 250px;
+                    border-radius: 25px;
+                }
+                .h-detail{
+                    padding: 0px 20px;
+                    h3{
+                        color: rgb(93, 91, 91);
+                        font-weight: 500;
+                        margin-bottom: 10px;
+                    }
+                    p{
+                        font-size: 14px;
+                        color: gray;
+                        margin: 0;
+                    }
+                }
+                .fare{
+                    display: flex;
+                    align-items: center;
+                    padding: 5px 20px;
+                    width: 100%;
+                    h2{
+                        font-weight: 400;
+                        color: rgb(93, 91, 91);
+                    }
+                    p{
+                        color: gray;
+                        font-size: 14px;
+                        padding-left: 10px;
+                    }
+                }
+            }
+            .item6{
+                width: 32%;
+                // border-radius: 24px;
+                // background: rgb(254,219,142);
+                // background: linear-gradient(180deg, rgba(254,219,142,1) 31%, rgba(255,255,255,1) 94%);
+                .pic-1{
+                    background: url(../../assets/image/dome.jpg);
+                    background-position: center;
+                    background-size: cover;
+                    width: 355px;
+                    height: 250px;
+                    border-radius: 25px;
+                }
+                .h-detail{
+                    padding: 0px 20px;
+                    h3{
+                        color: rgb(93, 91, 91);
+                        font-weight: 500;
+                        margin-bottom: 10px;
+                    }
+                    p{
+                        font-size: 14px;
+                        color: gray;
+                        margin: 0;
+                    }
+                }
+                .fare{
+                    display: flex;
+                    align-items: center;
+                    padding: 5px 20px;
+                    width: 100%;
+                    h2{
+                        font-weight: 400;
+                        color: rgb(93, 91, 91);
+                    }
+                    p{
+                        color: gray;
+                        font-size: 14px;
+                        padding-left: 10px;
+                    }
+                }
+            }
+        }
+        
+    } 
+    .book-1{
+        position: relative;
+        height: 4vh;
+        width: 35%;
+        margin-top: 10px;
+        border: none;
+        background-color:#000;
+        border-radius: 10px;
+        font-size: 16px;
+        color:#fff;
+        cursor: pointer;
+           a{
+            text-decoration: none;
+            color: #fff;
+            font-weight: 500;
+            font-size: 12px;
+           }
+    } 
+    hr{
+        border: 2px solid #000;
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }  
+    
+}
+}
+}
+@media screen and (max-width:992px){
+
+    .container{
+        max-width: 960px;
+    }
+
+
+  }
+    
+  
+
+@media screen and (min-width:1200px){
+    .container{
+        max-width: 1140px;
+    }
+    
+}
+ 
+
+@media screen and (max-width:1300px){
+    .container{
+        max-width: 1140px;
+    }
+    .item1,
+    .item2,
+    .item3,
+    .item4,
+    .item5,
+    .item6{
+        .pic-1{
+            width: 300px !important;
+        }
+    }
+       
+}
+
+@media screen and (min-width:1200px){
+    .container{
+        max-width: 1140px;
+    }
+           
+}
+
